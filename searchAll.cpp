@@ -24,6 +24,23 @@ int main(){
 	
 	
 string bigString = "I liked the movie, acting in movie was great!";
-string smallString = "movie"
-	
+string smallString = "movie";
+
+int index = bigString.find(smallString);
+vector<int>result ={};
+
+if(index == -1){
+	cout<<"no occurrences found";
+}	
+
+
+while(index !=-1){
+	result.push_back(index);
+	index = bigString.find(smallString);
+}
+
+for(auto x : result){
+	cout<< x << " ";
+}
+
 }
