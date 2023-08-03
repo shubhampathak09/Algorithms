@@ -33,7 +33,7 @@ public class CopyListWithRandomPointers {
       ListNode c1=head;
       ListNode c2 =nHead;
 
-       while(curr!=null){
+       while(c1!=null){
            if(c1.random!= null)
             c2.random =map.get(c1.random);
            else
@@ -41,7 +41,7 @@ public class CopyListWithRandomPointers {
             c1=c1.next;
             c2=c2.next;
 
-            curr =curr.next;
+
 
        }
 
