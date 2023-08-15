@@ -92,7 +92,7 @@ for(int i =1 ;i<=n;i++){
 		cout<<dp[1]<<endl;
 		
 		int node =1;
-		
+		/**print the nodes path to longest trip **/
 		while(node){
 			cout<<node<<" ";
 			node =next_node[node];
