@@ -36,6 +36,7 @@ int depthOfTree(struct Node *ptr)
 	for (vector<Node*>::iterator it = ptr->child.begin();
 						it != ptr->child.end(); it++)
 
+     // imp step
 		maxdepth = max(maxdepth , depthOfTree(*it));
 
 	return maxdepth + 1;
