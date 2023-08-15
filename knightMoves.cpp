@@ -27,6 +27,10 @@ int dis[10[10];
 int taretX,targetY;
 
 
+bool isValid(int x,int y){
+	
+}
+
 int bfs(int x,int y){
 	
 	queue<pair<int,int>>q;
