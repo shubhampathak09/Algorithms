@@ -121,6 +121,8 @@ int main()
 	
 	g.addEdge(4, 5, 10);
 	
+	// add edges
+	//add wirghtd
 	g.addEdge(5, 6, 2);
 	
 	g.addEdge(6, 7, 1);
