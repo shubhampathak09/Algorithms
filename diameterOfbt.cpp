@@ -12,12 +12,16 @@ using namespace std;
 // and a pointer to right child
 
 // general structure of binary tree
+
 struct node {
 	int data;
 	struct node *left, *right;
 };
 
 // function to create a new node of tree and returns pointer
+
+// general idea of creating a new node
+
 struct node* newNode(int data);
 
 // returns max of two integers
