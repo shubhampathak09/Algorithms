@@ -45,8 +45,31 @@ int bfs(int x,int y){
 		int curr_y=q.front().second();
 		
 		q.pop();
+	
+	
+	    for(int i=0;i<8;i++){
+	    	
+	    	if(isValid(curr_x+dx[i],curr_y+dy[i])){
+	    		x = currr_x +dx[i];
+	    		y = curr_y +dy[i];
+	    		
+	    		dist[x][y]= dist[curr_x][curr_y]+1;
+	    		vis[x][y]=1;
+	    		q.push({x,y});
+	    		
+	    		if(x == targetX && y==targetY){
+	    			return dist[x][y];
+				}
+	    		
+	    		
+			}
+	    	
+		}
 		
 		// traverse the 8 directions and put into the queue
+	
+	
+	    
 		
 	}
 	
