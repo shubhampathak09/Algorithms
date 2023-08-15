@@ -3,6 +3,7 @@ using namespace std;
 
 // Function to find diameter
 // of BIT with N + 1 nodes
+
 int diameter(int n)
 {
 	// L is size of subtree just before subtree
