@@ -107,4 +107,7 @@ int main() {
    
    // pop to happen from front -> front = front +1
    
+   
+   // insertion from rear , pop from front
+   
 }
