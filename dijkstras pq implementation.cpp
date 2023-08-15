@@ -112,6 +112,8 @@ int main()
 	
 	g.addEdge(1, 7, 11);
 	
+	//
+	//vffv
 	g.addEdge(2, 3, 7);
 	
 	g.addEdge(2, 8, 2);
