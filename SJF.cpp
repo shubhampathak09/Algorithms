@@ -238,5 +238,12 @@ int main()
 
 	// Print the calculated time
 	print(n);
+	
+	
+	// uses application of segemnt tree
+	
+	// must read before attemptiong this
+	
+	
 }
 
