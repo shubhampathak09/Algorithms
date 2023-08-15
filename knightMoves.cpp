@@ -26,6 +26,25 @@ int dis[10[10];
 
 int taretX,targetY;
 
+
+int bfs(int x,int y){
+	
+	queue<pair<int,int>>q;
+	dist[x][y]=0;
+	vis[x][y] =1;
+	q.push({x,y});
+	
+	
+	if(x == targetX && y == targetY )
+	return dist[x][y];
+	
+	
+	while(!q.empty()){
+		
+	}
+	
+}
+
 int main(){
 
 int x,y,q;
@@ -45,11 +64,11 @@ while(q--){
 	
 	cin>>a>>b;
 	
-	x = a -'0'; //getX(a);
+	x = a -'a' +1; //getX(a);
 	y=  b- '0';
 	
 	
-	
+	cout<<bfs(x,y)<<endl;
 	
 	
 }
