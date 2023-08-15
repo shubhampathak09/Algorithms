@@ -51,7 +51,10 @@ void countWaysToJump(int arr[], int n)
 int main()
 {
     int arr[] = {1, 3, 5, 8, 9, 1, 0, 7, 6, 8, 9};
+    
     int n = sizeof(arr) / sizeof(arr[0]);
-    countWaysToJump(arr, n);
-    return 0;
+    
+	countWaysToJump(arr, n);
+    
+	return 0;
 }
