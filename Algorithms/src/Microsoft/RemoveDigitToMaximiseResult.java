@@ -2,6 +2,7 @@ package Microsoft;
 
 public class RemoveDigitToMaximiseResult {
 
+    // solved
     public static void main(String[] args){
         String number = "123";
         String ans="";
