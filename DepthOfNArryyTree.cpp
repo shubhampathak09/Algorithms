@@ -87,6 +87,8 @@ int main()
 	* N M		 L
 	*/
 
+
+  // ?????
 	Node *root = newNode('A');
 	(root->child).push_back(newNode('B'));
 	(root->child).push_back(newNode('F'));
