@@ -41,6 +41,13 @@ int bfs(int x,int y){
 	
 	while(!q.empty()){
 		
+		int curr_x = q.front().first();
+		int curr_y=q.front().second();
+		
+		q.pop();
+		
+		// traverse the 8 directions and put into the queue
+		
 	}
 	
 }
