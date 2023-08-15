@@ -40,6 +40,8 @@ void printSolution(int dist[])
 
 // whats the complexity of djikstra ?
 
+// are there algorithms which perform better than dijkstra
+
 //
 void dijkstra(int graph[V][V], int src)
 {
