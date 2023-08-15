@@ -15,6 +15,7 @@ void insertCQ(int val) {
       front = 0;
       rear = 0;
    } else {
+   	  // reset
       if (rear == n - 1)
       rear = 0;
       else
@@ -96,4 +97,12 @@ int main() {
       }
    } while(ch != 4);
    return 0;
+   
+   
+   
+   
+   // understood this concept
+   
+   
+   
 }
