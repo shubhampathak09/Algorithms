@@ -12,6 +12,7 @@ struct Node
 };
 
 // Utility function to create a new tree node
+//ook
 Node *newNode(int key)
 {
 	Node *temp = new Node;
@@ -21,6 +22,7 @@ Node *newNode(int key)
 
 // Utility function that will return the depth
 // of the tree
+//okk
 int depthOfTree(struct Node *ptr)
 {
 	// Base case
