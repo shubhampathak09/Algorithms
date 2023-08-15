@@ -83,3 +83,10 @@ int main()
 }
 
 
+
+
+// FCFS does the job bur overall its slow
+// waiting time wait is often large
+// as numner of tasks increase avg waiting time might increase
+
+
