@@ -53,6 +53,8 @@ void printSolution(int dist[])
 
 //7. Approximation algos build on top of dijkstra ? if yes what are they????
 
+//  if 6 is yes, can dijkstra be used to detect negetive cycles??
+
 void dijkstra(int graph[V][V], int src)
 {
 	int dist[V]; // The output array. dist[i] will hold the
