@@ -89,7 +89,8 @@ bool Graph::isCycle()
 		
 	}
 
-	// Check if there was a cycle
+	// Check if there was a cycle  vvvi  thus can check for cycles in graph
+	
 	if (cnt != V)
 		return true;
 	else
