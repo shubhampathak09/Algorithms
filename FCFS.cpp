@@ -24,7 +24,7 @@ void CalculateWaitingTime(int at[],
 		<< "\t\t" << at[0] << "\t\t"
 		<< bt[0] << "\t\t" << wt[0] << endl;   // bt -> burst time 
 
-	// Calculating waiting time for
+	// Calculating waiting time for  wait time calcualtion logic
 	// each process from the given
 	// formula
 	for (int i = 1; i < 5; i++) {
