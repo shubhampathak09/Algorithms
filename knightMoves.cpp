@@ -12,6 +12,12 @@ graph theroy pplaylist part 1
 **/
 
 
+/**intialize the dir arrays **/
+
+
+int dx[] ={-2,-1,1,2,2,1,-1,-1,2};
+
+int dy[] ={1,2,2,1,-1,-2,-2,-1};
 
 
 int main(){
