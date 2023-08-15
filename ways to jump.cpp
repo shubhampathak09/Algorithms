@@ -1,5 +1,4 @@
-// C++ implementation to count number
-// of ways to jump to reach end
+//jumps to make
 #include <bits/stdc++.h>
 using namespace std;
  
