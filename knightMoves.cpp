@@ -77,9 +77,6 @@ int bfs(int x,int y){
 		}
 		
 		// traverse the 8 directions and put into the queue
-	
-	
-	    
 		
 	}
 	
