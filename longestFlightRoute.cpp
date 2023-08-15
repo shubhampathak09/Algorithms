@@ -12,6 +12,26 @@ using namespace std;
 
 
 
+/** trivia
+
+1/url shortner
+cache system
+parking lot
+google docs and drop box
+instagram
+linkdin
+facebook
+twitter
+payment gateway
+amazon
+rate limiter
+notificaaton system
+
+
+ **/
+
+
+
 int main(){
 	
 	
