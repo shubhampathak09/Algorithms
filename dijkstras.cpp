@@ -44,7 +44,7 @@ void printSolution(int dist[])
 
 // 3.is p / np /np complete /np hard -->> how to check this
 
-// 4. 
+// 4. can tsp be modelled with help of dijkstra, if yes ehat woudl be optimal time complexity
 
 
 void dijkstra(int graph[V][V], int src)
