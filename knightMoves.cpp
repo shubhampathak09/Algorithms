@@ -28,7 +28,13 @@ int taretX,targetY;
 
 
 bool isValid(int x,int y){
+	if(x< 1 || x > 8 || y < 1 || y > 8)
+	return false;
 	
+	if(vis[x][y]==1)
+	return false;
+	
+	return true;
 }
 
 int bfs(int x,int y){
