@@ -38,13 +38,13 @@ void printSolution(int dist[])
 // adjacency matrix representation
 
 
-// whats the complexity of djikstra ?
+// 1.whats the complexity of djikstra ?
 
-// are there algorithms which perform better than dijkstra
+// 2.are there algorithms which perform better than dijkstra
 
-// is p / np /np complete /np hard -->> how to check this
+// 3.is p / np /np complete /np hard -->> how to check this
 
-
+// 4. 
 
 
 void dijkstra(int graph[V][V], int src)
