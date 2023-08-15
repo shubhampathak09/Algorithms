@@ -3,11 +3,15 @@
 
 // Recursive optimized C program to find the diameter of a
 // Binary Tree
+
 #include <bits/stdc++.h>
 using namespace std;
 
+
 // A binary tree node has data, pointer to left child
 // and a pointer to right child
+
+// general structure of binary tree
 struct node {
 	int data;
 	struct node *left, *right;
