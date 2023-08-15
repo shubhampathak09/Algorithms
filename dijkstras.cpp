@@ -42,7 +42,7 @@ void printSolution(int dist[])
 
 // are there algorithms which perform better than dijkstra
 
-//
+// is p / np /np complete /np hard -->> how to check this
 void dijkstra(int graph[V][V], int src)
 {
 	int dist[V]; // The output array. dist[i] will hold the
