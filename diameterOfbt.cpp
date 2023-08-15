@@ -25,7 +25,7 @@ struct node {
 struct node* newNode(int data);  // -> is this really req
 
 // returns max of two integers
-int max(int a, int b) { return (a > b) ? a : b; }
+int max(int a, int b) { return (a > b) ? a : b; }   // simple implementation of max function c 
 
 // function to Compute height of a tree.
 int height(struct node* node);
