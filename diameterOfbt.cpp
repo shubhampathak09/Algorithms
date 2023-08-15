@@ -22,7 +22,7 @@ struct node {
 
 // general idea of creating a new node
 
-struct node* newNode(int data);
+struct node* newNode(int data);  // -> is this really req
 
 // returns max of two integers
 int max(int a, int b) { return (a > b) ? a : b; }
