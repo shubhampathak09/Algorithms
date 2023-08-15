@@ -64,5 +64,24 @@ notificaaton system
 
 int main(){
 	
+
+int m,a,b;
+
+cin>> n >> m;
+
+
+for(int i =1 ;i<=n;i++){
+	dp[n] = 1;
+}
+	
+	
+	for(int i =0 ;i<m;i++){
+		cin>>a>>b;
+		adj[a].push_back(b);
+	}
+	
+	
+	
+	dfs(1);
 	
 }
