@@ -110,7 +110,7 @@ int main()
 	root->left->left = newNode(4);
 	root->left->right = newNode(5);
 
-    
+    // code
 	// Function Call
 	cout << "Diameter of the given binary tree is "
 		<< diameter(root);
