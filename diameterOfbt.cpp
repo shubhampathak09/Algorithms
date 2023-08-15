@@ -1,3 +1,6 @@
+
+// analusing the code diameter of binary tree
+
 // Recursive optimized C program to find the diameter of a
 // Binary Tree
 #include <bits/stdc++.h>
