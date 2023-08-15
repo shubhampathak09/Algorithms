@@ -38,6 +38,7 @@ int diameter(struct node* tree)
 		return 0;
 
 	// get the height of left and right sub-trees
+	// call the function get height
 	int lheight = height(tree->left);
 	int rheight = height(tree->right);
 
@@ -50,6 +51,8 @@ int diameter(struct node* tree)
 	// 2) Diameter of right subtree
 	// 3) Height of left subtree + height of right subtree +
 	// 1
+	
+	// important logic very very important
 	return max(lheight + rheight + 1,
 			max(ldiameter, rdiameter));
 }
@@ -59,6 +62,8 @@ int diameter(struct node* tree)
 // The function Compute the "height" of a tree. Height is
 // the number f nodes along the longest path from the root
 // node down to the farthest leaf node.
+
+// test the code below
 int height(struct node* node)
 {
 	// base case tree is empty
