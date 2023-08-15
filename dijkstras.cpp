@@ -64,7 +64,7 @@ void printSolution(int dist[])
 
 //12. Dijkstra search in higher dimension ??
 
-//13.
+//13.Dijkstra application in ai,like a*search + dijkstra algo
 
 void dijkstra(int graph[V][V], int src)
 {
