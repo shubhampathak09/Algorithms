@@ -71,6 +71,9 @@ int diameter(struct Node *ptr)
 	return max(maxChildDia, max1 + max2 + 1);
 }
 
+
+// good prb
+
 // Driver program
 int main()
 {
