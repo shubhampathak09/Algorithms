@@ -19,14 +19,17 @@ void countWaysToJump(int arr[], int n)
     for (int i=n-2; i>=0; i--)
     {
         // if the element can directly
-        // jump to the end
-        if (arr[i] >= n - i - 1)
+        
+		// jump to the end
+        
+        if (arr[i] >= n - i - 1) // check if can make jump
             count_jump[i]++;
  
         // add the count of all the elements
         // that can reach to end and arr[i] can
         // reach to them
-        for (int j=i+1; j < n-1 && j <= arr[i] + i; j++)
+        
+		for (int j=i+1; j < n-1 && j <= arr[i] + i; j++)
  
             // if element can reach to end then add
             // its count to count_jump[i]
@@ -41,7 +44,7 @@ void countWaysToJump(int arr[], int n)
     // print count_jump for each
     // array element
     for (int i=0; i<n; i++)
-        cout << count_jump[i] << " ";
+        cout << count_jump[i] << "  ";
 }
  
 // Driver program to test above
