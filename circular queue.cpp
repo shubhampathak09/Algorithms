@@ -105,6 +105,6 @@ int main() {
    
    // it has rear pointer and front point
    
-   // po
+   // pop to happen from front -> front = front +1
    
 }
