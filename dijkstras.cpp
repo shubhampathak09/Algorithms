@@ -49,7 +49,7 @@ void printSolution(int dist[])
 // 5. what are application of dijkstra some know applications in MST,wirghted graphs etc 
 
 
-//6.
+//6. can dijkstra be used to solve cycle detection problems 
 
 void dijkstra(int graph[V][V], int src)
 {
