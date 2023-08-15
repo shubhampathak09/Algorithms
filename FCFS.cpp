@@ -9,12 +9,12 @@ void CalculateWaitingTime(int at[],
 						int bt[], int N)
 {
 
-	// Declare the array for waiting
+	// Declare the array for waiting queue
 	// time
 	int wt[N];
 
 	// Waiting time for first process
-	// is 0
+	// is 0  first process does not wait takes priority
 	wt[0] = 0;
 
 	// Print waiting time process 1
