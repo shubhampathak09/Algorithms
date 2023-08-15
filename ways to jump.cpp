@@ -6,10 +6,12 @@ using namespace std;
 // reach end for each array element
 void countWaysToJump(int arr[], int n)
 {
-    // count_jump[i] store number of ways
+    // count_jump[i] store number of ways, memoised way of solving
+    
     // arr[i] can reach to the end
-    int count_jump[n];
-    memset(count_jump, 0, sizeof(count_jump));
+    
+	int count_jump[n];
+    memset(count_jump, 0, sizeof(count_jump)); // memset
  
     // Last element does not require to jump.
     // Count ways to jump for remaining
