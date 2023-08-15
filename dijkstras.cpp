@@ -60,6 +60,8 @@ void printSolution(int dist[])
 
 // 10 . Dijkstra search in 2d and 3d grid , optimal work flow creations
 
+//11. Dijkstra and nature insipered algorithms, how it has improved the efficenty od other algos
+
 void dijkstra(int graph[V][V], int src)
 {
 	int dist[V]; // The output array. dist[i] will hold the
