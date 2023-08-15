@@ -4,6 +4,13 @@
 using namespace std;
 
 
+
+int dp[2000001];
+bool vis[2000001];
+vector<int> adj[2000001];
+int next_node[20000001];
+
+
 // application of dfs
 // dp
 // top down recursiove solution first
@@ -29,6 +36,11 @@ notificaaton system
 
 
  **/
+
+
+
+// d[i] -> longest path from node i to n
+
 
 
 
