@@ -46,6 +46,10 @@ void printSolution(int dist[])
 
 // 4. can tsp be modelled with help of dijkstra, if yes ehat woudl be optimal time complexity
 
+// 5. what are application of dijkstra some know applications in MST,wirghted graphs etc 
+
+
+//6.
 
 void dijkstra(int graph[V][V], int src)
 {
