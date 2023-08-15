@@ -58,6 +58,12 @@ void CalculateWaitingTime(int at[],
 		<< average;
 }
 
+// formula is wait time of preivios + arrival time of previous + burst time of previous - arrival time of current
+
+// avg wait time = toal wait time sum / num of processes 
+
+
+
 // Driver code
 int main()
 {
@@ -75,5 +81,5 @@ int main()
 	CalculateWaitingTime(at, bt, N);
 	return 0;
 }
-//this code is contributed by snehalsalokhe
+
 
