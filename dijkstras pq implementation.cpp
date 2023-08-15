@@ -50,11 +50,11 @@ void Graph::shortestPath(int src)
 
 	// Create a vector for distances and initialize all
 	// distances as infinite (INF)
-	vector<int> dist(V, INF);
+	vector<int> dist(V, INF);  // init
 
 	// Insert source itself in priority queue and initialize
 	// its distance as 0.
-	pq.push(make_pair(0, src));
+	pq.push(make_pair(0, src));  // source node zero
 	dist[src] = 0;
 
 	/* Looping till priority queue becomes empty (or all
