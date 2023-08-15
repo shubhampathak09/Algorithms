@@ -81,6 +81,7 @@ struct node* newNode(int data)
 {
 	struct node* node
 		= (struct node*)malloc(sizeof(struct node));
+		// nasty nasty mallocs...
 	node->data = data;
 	node->left = NULL;
 	node->right = NULL;
