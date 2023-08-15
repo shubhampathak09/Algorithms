@@ -27,8 +27,8 @@ struct node* newNode(int data);  // -> is this really req
 // returns max of two integers
 int max(int a, int b) { return (a > b) ? a : b; }   // simple implementation of max function c 
 
-// function to Compute height of a tree.
-int height(struct node* node);
+// function to Compute height of a tree.   
+int height(struct node* node);   // height compute function recursive implementation -> bt logic
 
 // Function to get diameter of a binary tree
 int diameter(struct node* tree)
