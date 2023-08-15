@@ -71,7 +71,7 @@ cin>> n >> m;
 
 
 for(int i =1 ;i<=n;i++){
-	dp[n] = 1;
+	dp[n] = -1;
 }
 	
 	
@@ -84,4 +84,20 @@ for(int i =1 ;i<=n;i++){
 	
 	dfs(1);
 	
+	
+	if(dp[1]==-1){
+		cout<<"IMPOSSIBlE";
+	}
+	else{
+		cout<<dp[1]<<endl;
+		
+		int node =1;
+		
+		while(node){
+			cout<<node<<" ";
+			node =next_node[node];
+		}
+		
+		
+	}
 }
