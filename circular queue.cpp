@@ -103,6 +103,8 @@ int main() {
    
    // understood this concept
    
+   // it has rear pointer and front point
    
+   // po
    
 }
