@@ -17,12 +17,12 @@ void CalculateWaitingTime(int at[],
 	// is 0  first process does not wait takes priority
 	wt[0] = 0;
 
-	// Print waiting time process 1
+	// Print waiting time process 1   / TAT time /  need to fix this up , tat time is usually not  known
 	cout << "PN\t\tAT\t\t"
 		<< "BT\t\tWT\n\n";
 	cout << "1"
 		<< "\t\t" << at[0] << "\t\t"
-		<< bt[0] << "\t\t" << wt[0] << endl;
+		<< bt[0] << "\t\t" << wt[0] << endl;   // bt -> burst time 
 
 	// Calculating waiting time for
 	// each process from the given
