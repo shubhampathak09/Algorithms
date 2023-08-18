@@ -2,6 +2,8 @@
 using namespace std;
 
 
+#define N 8
+
 int issafe(int x,int y,int sol[N][N]){
 	
 	if(x>=0 && x< N && y>=0 && y< N && sol[x][y]!=-1){
