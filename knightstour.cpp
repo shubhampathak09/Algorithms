@@ -4,6 +4,9 @@ using namespace std;
 
 #define N 8
 
+int dx[]={2,1,-1,-2,-2,-1,1,2};
+int dy[]={1,2,2,1,-1,-2,-2,-1};
+
 int issafe(int x,int y,int sol[N][N]){
 	
 	if(x>=0 && x< N && y>=0 && y< N && sol[x][y]!=-1){
@@ -15,7 +18,7 @@ int issafe(int x,int y,int sol[N][N]){
 
 
 
-boolean solveKtUtil(int x, int y,int moveNo,int sol[N][N]){
+bool solveKtUtil(int x, int y,int moveNo,int sol[N][N]){
 	
 	int k,next_x,next_y;
 	
@@ -30,7 +33,7 @@ boolean solveKtUtil(int x, int y,int moveNo,int sol[N][N]){
 		if(issafe(next_x,next_y,sol)){
 			sol[next_x][next_y]=moveNo;
 			if(solveKtUtil(next_x,next_y,moveNo+1,sol)==1){
-				return 1
+				return 1;
 			}else
 			{
 				sol[next_x][next_y]=-1;
@@ -64,8 +67,7 @@ int solveKt(){
 	
 }
 
-int dx[]={2,1,-1,-2,-2,-1,1,2};
-int dy[]={1,2,2,1,-1,-2,-2,-1};
+
 
 
 
